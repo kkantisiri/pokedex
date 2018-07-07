@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+          <link rel="stylesheet" type="text/css" href="pokedex.css">
+        <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+    </head>
+    <body>
+    <nav>
+        <ul>
+            <div class="container">
+                <li style="font-size: 45px">Pokedex</li>
+                <li style="float:right">
+                    <form id="searchForm" class="form">
+                        <input id="searchField" type="text" name="search" placeholder="Search for Pokemon..."/>
+                        <input type="submit" class="searchButton" value="Go"/>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <div class="table">
+    <table>
+        <tr class="tablePokemonName">
+            <td>Pokemon Name</td>
+            <td><h3 id="pokemonName" class="pokemonName"></h1></td>
+        </tr>
+        <tr class="tablePokemonImage">
+            <td>Pokemon Image</td>
+        </tr>
+        <tr class="tablePokemonDescription">
+            <td class="darkFont">Pokemon Description</td>
+        </tr>
+    </table>
+    </div>
+    
+    <h1 id="pokemonName" class="pokemonName"></h1>
+        <img id="pokemonImage">
+        <p id="pokemonDescription"></p>
+        <script type="text/javascript" src="pokedex.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+body {
+    background-color: #ff897c;
+    margin: 0;
+}
+
+.pokemonName {
+    font-family: 'Nixie One', cursive;
+}
+
+.menu {
+    display: flex;
+    background-color: darkgray;
+    padding: 0;
+    margin: 0 -24px 0 -24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.container {
+    margin: auto;
+    padding: 0px 12px 0px 12px;
+}
+#searchField {
+        width: auto;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        padding: 12px 20px 12px 10px;
+}
+
+.searchButton {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: skyblue;
+    border-color: #0099ff
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table{
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+td {
+    padding: 60px;
+    font-size: 50px;
+    color: white;
+}
+.darkFont {
+    color: black;
+}
+.tablePokemonName {
+    background-color: #ee1515;
+}
+.tablePokemonImage {
+    background-color: #222224;
+}
+.tablePokemonDescription {
+    background-color: #f0f0f0;
+}
